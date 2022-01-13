@@ -1,0 +1,17 @@
+:root {
+  --background-color: #8da6a2;
+  --menu-link-color: #8da6a2;
+  --menu-primary-color: #494f6b;
+  --menu-checked-color: #6d7b91;
+  --menu-button-size: 40px;
+  --menu-button-indent: 40px;
+  --menu-width: 300px;
+  --menu-shadow-color: rgb(0 0 0 / 20%);
+  --slide-bg-first: #8a484a;
+  --slide-bg-second: #7f488a;
+  --slide-bg-third: #48608a;
+  --slide-bg-fourth: #4a8748;
+  --white: #fff;
+  --mostly-white: #ccc;
+  --mostly-dark: #444;
+}

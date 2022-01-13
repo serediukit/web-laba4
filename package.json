@@ -1,0 +1,22 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "2.5.1",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "scripts": {
+    "format:check": "prettier --check . --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore",
+    "stylelint:check": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix ",
+    "prepare": "husky install"
+  },
+  "author": "Paul Vasylenko",
+  "license": "ISC"
+}
