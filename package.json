@@ -17,6 +17,6 @@
     "stylelint:fix": "stylelint \"**/*.css\" --fix ",
     "prepare": "husky install"
   },
-  "author": "Paul Vasylenko",
+  "author": "Valentyn Serediuk",
   "license": "ISC"
 }
